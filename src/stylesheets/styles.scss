@@ -1,9 +1,22 @@
 // Add your styles here
+.image-container {
+  position: relative;
+}
+
 .fav-img {
-  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(207, 107, 124);
+  border-radius: 35%;
 }
 
 .header {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
