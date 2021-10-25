@@ -9,6 +9,7 @@
   transform: translateX(-50%);
   background-color: rgb(207, 107, 124);
   border-radius: 35%;
+  height: 400px;
 }
 
 .header {
@@ -16,7 +17,7 @@
   margin-bottom: 50px;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  height: 400vh;
 }
 
