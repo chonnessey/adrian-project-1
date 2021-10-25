@@ -83,6 +83,7 @@
     "enquirer": "^2.3.6",
     "figlet": "^1.2.3",
     "ftp-deploy": "^2.4.1",
+    "gsap": "^3.8.0",
     "jquery": "^3.6.0",
     "normalize.css": "^8.0.1",
     "reset-css": "^5.0.1",
