@@ -34,17 +34,17 @@ let tl = gsap.timeline({
 
 // add animations and labels to the timeline
 tl
-.to('.fav-img', {duration: 1, scale: 2, rotation: 45})
+.to('.fav-img', {duration: 1, scale: 2, rotation: 90})
 .addLabel("color")
-.to(".fav-img", {scale: 1.7, rotation:90, duration: 1})
+.to(".fav-img", {scale: 1.7, rotation:180, duration: 1})
 .to(".container", {backgroundColor: "#28a92b"})
 .addLabel("second-color")
-.to('.fav-img', {scale: 1.4, rotation:135, duration: 1})
+.to('.fav-img', {scale: 1.4, rotation:270, duration: 1})
 .to('.container', {backgroundColor: 'blue'})
 .addLabel("third-color")
-.to('.fav-img', {scale: 1, rotation:180, duration: 1})
+.to('.fav-img', {scale: 1, rotation:360, duration: 1})
 .to('.container', {backgroundColor: '#cc34eb'})
 .addLabel("fourth-color")
 .to('.fav-img', {rotation: 360, duration:1})
 .to('.container', {backgroundColor: 'yellow'})
-.to('.fav-img', {xPercent: 50, duration: 1, scale: 2, })
+.to('.fav-img', {xPercent: 50, duration: 1, scale: 2})
